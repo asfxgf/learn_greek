@@ -1,6 +1,7 @@
 {
   "name": "learn_greek",
   "private": false,
+  "build": "webpack",
   "dependencies": {
     "bootstrap": "^5.2.2"
   },
