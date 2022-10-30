@@ -1,0 +1,23 @@
+<div class="container text-center">
+	<h1>Let's learn greek !</h1>
+	<div>
+		<button type="button" class="btn btn-success"><%= link_to "Only important words", "/words", class: "nav-link" %></button>
+	</div>
+		<div class="row">
+			<% @questions.each do |question| %>
+				<div class="col-sm-3 mb-3 mt-3">
+					<div class="card text" style="width: 18rem;">
+						<div class="card-body">
+							<p class="card-title"><b><%= question.category %></b></p>
+						    <h2 class="card-subtitle mb-2 text-muted"><b><%= question.french_traduction %></b></h2>
+						    <h2 class="card-text mouse_over"><b><%= question.greek_traduction %></b></h2>
+			  			</div>
+					</div>
+				</div>
+			<% end %>
+		</div>
+	<!--<h2><b>⚠️ You have to Log in in order to start the lessons !</b></h2>
+	<button type="button" class="btn btn-secondary"><%= link_to "Login", new_user_session_path, class: "nav-link" %></button>
+	<button type="button" class="btn btn-success"><%= link_to "Sign Up", new_user_session_path, class: "nav-link" %></button>
+	-->
+</div>
