@@ -3,7 +3,7 @@
     "bootstrap": "^5.2.2",
     "webpack": "^5.74.0"
   },
-  "script": {
+  "scripts": {
     "build": "webpack"
   }
 }
