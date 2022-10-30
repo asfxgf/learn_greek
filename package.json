@@ -1,5 +1,8 @@
 {
+  "name": "learn_greek",
+  "private": false,
   "dependencies": {
     "bootstrap": "^5.2.2"
-  }
+  },
+  "version": "0.1.0"
 }
